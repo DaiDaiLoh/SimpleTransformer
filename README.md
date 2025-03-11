@@ -1,4 +1,5 @@
 This repository contains a simple transformer implementation for language modeling in pytorch, from scratch, made to be both (reasonably) fast and still readable.<br/>
+It can produce a small children's story within a few minutes on a gaming graphics card :)<br/>
 Note that this will <b>always</b> slower than the native pytorch version: It for example contains flash attention (tl;dr: optimisation to make attention computation much faster).<br/>
 The inner workings, however, are the same.<br/>
 <br/>
